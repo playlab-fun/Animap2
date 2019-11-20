@@ -19,6 +19,6 @@ public class SplashScreenScript : MonoBehaviour {
 	IEnumerator ProceedToMainScreen() {
 
 		yield return new WaitForSeconds (3.0f);
-		SceneManager.LoadScene ("MainMenu");
+		SceneManager.LoadScene ("ARScene");
 	}
 }
