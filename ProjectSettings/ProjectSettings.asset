@@ -129,7 +129,7 @@ PlayerSettings:
   vrSettings:
     cardboard:
       depthFormat: 0
-      enableTransitionView: 0
+      enableTransitionView: 1
     daydream:
       depthFormat: 0
       useSustainedPerformanceMode: 0
@@ -163,7 +163,7 @@ PlayerSettings:
     Android: com.PlayLab.Animap
   buildNumber: {}
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 16
+  AndroidMinSdkVersion: 20
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -399,12 +399,15 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+    - Vuforia
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
     - Vuforia
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Android
+    m_Enabled: 1
+  - m_BuildTarget: Standalone
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
