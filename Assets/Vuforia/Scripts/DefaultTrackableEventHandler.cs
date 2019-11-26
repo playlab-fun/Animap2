@@ -17,6 +17,8 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+    public GameObject target;
+
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -85,6 +87,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingFound()
     {
+        target.SetActive(false);
+
         if (mTrackableBehaviour)
         {
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
@@ -108,6 +112,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingLost()
     {
+        target.SetActive(true);
+
         if (mTrackableBehaviour)
         {
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
