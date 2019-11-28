@@ -14,10 +14,10 @@ public class ChangeToVRMode : MonoBehaviour
 
         if (!isInVRMode)
         {
-            MixedRealityController.Instance.SetMode(MixedRealityController.Mode.VIEWER_VR);
+            MixedRealityController.Instance.SetMode(MixedRealityController.Mode.HANDHELD_AR);
         } else
         {
-            MixedRealityController.Instance.SetMode(MixedRealityController.Mode.HANDHELD_AR);
+            MixedRealityController.Instance.SetMode(MixedRealityController.Mode.VIEWER_VR);
         }
     }
 }

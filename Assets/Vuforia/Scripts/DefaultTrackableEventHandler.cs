@@ -19,6 +19,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
     public GameObject target;
 
+    public GameObject desertText;
+    public GameObject drySavannaText;
+    public GameObject grasslandText;
+    public GameObject mediteranneanText;
+    public GameObject moistSavannaText;
+    public GameObject rainforestText;
+
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -89,6 +96,32 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     {
         target.SetActive(false);
 
+        TurnOffAllText();
+
+        switch (this.gameObject.tag)
+        {
+      
+            case "Desert":
+                desertText.SetActive(true);
+                break;
+            case "Dry Savanna":
+                drySavannaText.SetActive(true);
+                break;
+            case "Grassland":
+                grasslandText.SetActive(true);
+                break;
+            case "Mediterranean":
+                mediteranneanText.SetActive(true);
+                break;
+            case "Moist Savanna":
+                moistSavannaText.SetActive(true);
+                break;
+            case "Rainforest":
+                rainforestText.SetActive(true);
+                break;
+        }
+
+
         if (mTrackableBehaviour)
         {
             var rendererComponents = mTrackableBehaviour.GetComponentsInChildren<Renderer>(true);
@@ -113,6 +146,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected virtual void OnTrackingLost()
     {
         target.SetActive(true);
+        TurnOffAllText();
+
 
         if (mTrackableBehaviour)
         {
@@ -132,6 +167,16 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             foreach (var component in canvasComponents)
                 component.enabled = false;
         }
+    }
+
+    private void TurnOffAllText()
+    {
+        desertText.SetActive(false);
+        drySavannaText.SetActive(false);
+        grasslandText.SetActive(false);
+        mediteranneanText.SetActive(false);
+        moistSavannaText.SetActive(false);
+        rainforestText.SetActive(false);
     }
 
     #endregion // PROTECTED_METHODS

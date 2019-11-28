@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Rainforest
+  - Mediterranean
+  - Desert
+  - Grassland
+  - Dry Savanna
+  - Moist Savanna
   layers:
   - Default
   - TransparentFX
