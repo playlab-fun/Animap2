@@ -1,435 +1,258 @@
 fileFormatVersion: 2
 guid: 8024c7b24d1289f4e84aa6beb4915550
-timeCreated: 1473632407
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Body
-    100002: Body2
-    100004: Head
-    100006: Head_end
-    100008: LeftLeg1
-    100010: LeftLeg2
-    100012: LeftPaw1
-    100014: LeftPaw1_end
-    100016: PosteriorLeftLeg1
-    100018: PosteriorLeftLeg2
-    100020: PosteriorLeftPaw2
-    100022: PosteriorLeftPaw2_end
-    100024: PosteriorRight Leg2
-    100026: PosteriorRightLeg1
-    100028: PosteriorRightPaw2
-    100030: PosteriorRightPaw2_end
-    100032: rhinoceros
-    100034: //RootNode
-    100036: rhinocerosLOD1
-    100038: rhinocerosLOD2
-    100040: RhinocerosSkeleton
-    100042: Right Leg1
-    100044: Right Leg2
-    100046: RightPaw1
-    100048: RightPaw1_end
-    100050: Tail1
-    100052: Tail1_end
-    400000: Body
-    400002: Body2
-    400004: Head
-    400006: Head_end
-    400008: LeftLeg1
-    400010: LeftLeg2
-    400012: LeftPaw1
-    400014: LeftPaw1_end
-    400016: PosteriorLeftLeg1
-    400018: PosteriorLeftLeg2
-    400020: PosteriorLeftPaw2
-    400022: PosteriorLeftPaw2_end
-    400024: PosteriorRight Leg2
-    400026: PosteriorRightLeg1
-    400028: PosteriorRightPaw2
-    400030: PosteriorRightPaw2_end
-    400032: rhinoceros
-    400034: //RootNode
-    400036: rhinocerosLOD1
-    400038: rhinocerosLOD2
-    400040: RhinocerosSkeleton
-    400042: Right Leg1
-    400044: Right Leg2
-    400046: RightPaw1
-    400048: RightPaw1_end
-    400050: Tail1
-    400052: Tail1_end
-    4300000: rhinocerosLOD2
-    4300002: rhinocerosLOD1
-    4300004: rhinoceros
-    7400000: RhinocerosSkeleton|idle
-    7400002: idle
-    7400004: attack
-    7400006: death
-    7400008: eat
-    7400010: hurt
-    7400012: run
-    7400014: walk
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: rhinoceros
-    13700002: rhinocerosLOD1
-    13700004: rhinocerosLOD2
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: Body2
+  - first:
+      1: 100004
+    second: Head
+  - first:
+      1: 100006
+    second: Head_end
+  - first:
+      1: 100008
+    second: LeftLeg1
+  - first:
+      1: 100010
+    second: LeftLeg2
+  - first:
+      1: 100012
+    second: LeftPaw1
+  - first:
+      1: 100014
+    second: LeftPaw1_end
+  - first:
+      1: 100016
+    second: PosteriorLeftLeg1
+  - first:
+      1: 100018
+    second: PosteriorLeftLeg2
+  - first:
+      1: 100020
+    second: PosteriorLeftPaw2
+  - first:
+      1: 100022
+    second: PosteriorLeftPaw2_end
+  - first:
+      1: 100024
+    second: PosteriorRight Leg2
+  - first:
+      1: 100026
+    second: PosteriorRightLeg1
+  - first:
+      1: 100028
+    second: PosteriorRightPaw2
+  - first:
+      1: 100030
+    second: PosteriorRightPaw2_end
+  - first:
+      1: 100032
+    second: rhinoceros
+  - first:
+      1: 100034
+    second: //RootNode
+  - first:
+      1: 100036
+    second: rhinocerosLOD1
+  - first:
+      1: 100038
+    second: rhinocerosLOD2
+  - first:
+      1: 100040
+    second: RhinocerosSkeleton
+  - first:
+      1: 100042
+    second: Right Leg1
+  - first:
+      1: 100044
+    second: Right Leg2
+  - first:
+      1: 100046
+    second: RightPaw1
+  - first:
+      1: 100048
+    second: RightPaw1_end
+  - first:
+      1: 100050
+    second: Tail1
+  - first:
+      1: 100052
+    second: Tail1_end
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: Body2
+  - first:
+      4: 400004
+    second: Head
+  - first:
+      4: 400006
+    second: Head_end
+  - first:
+      4: 400008
+    second: LeftLeg1
+  - first:
+      4: 400010
+    second: LeftLeg2
+  - first:
+      4: 400012
+    second: LeftPaw1
+  - first:
+      4: 400014
+    second: LeftPaw1_end
+  - first:
+      4: 400016
+    second: PosteriorLeftLeg1
+  - first:
+      4: 400018
+    second: PosteriorLeftLeg2
+  - first:
+      4: 400020
+    second: PosteriorLeftPaw2
+  - first:
+      4: 400022
+    second: PosteriorLeftPaw2_end
+  - first:
+      4: 400024
+    second: PosteriorRight Leg2
+  - first:
+      4: 400026
+    second: PosteriorRightLeg1
+  - first:
+      4: 400028
+    second: PosteriorRightPaw2
+  - first:
+      4: 400030
+    second: PosteriorRightPaw2_end
+  - first:
+      4: 400032
+    second: rhinoceros
+  - first:
+      4: 400034
+    second: //RootNode
+  - first:
+      4: 400036
+    second: rhinocerosLOD1
+  - first:
+      4: 400038
+    second: rhinocerosLOD2
+  - first:
+      4: 400040
+    second: RhinocerosSkeleton
+  - first:
+      4: 400042
+    second: Right Leg1
+  - first:
+      4: 400044
+    second: Right Leg2
+  - first:
+      4: 400046
+    second: RightPaw1
+  - first:
+      4: 400048
+    second: RightPaw1_end
+  - first:
+      4: 400050
+    second: Tail1
+  - first:
+      4: 400052
+    second: Tail1_end
+  - first:
+      43: 4300000
+    second: rhinocerosLOD2
+  - first:
+      43: 4300002
+    second: rhinocerosLOD1
+  - first:
+      43: 4300004
+    second: rhinoceros
+  - first:
+      74: 7400000
+    second: RhinocerosSkeleton|idle
+  - first:
+      74: 7400002
+    second: idle
+  - first:
+      74: 7400004
+    second: attack
+  - first:
+      74: 7400006
+    second: death
+  - first:
+      74: 7400008
+    second: eat
+  - first:
+      74: 7400010
+    second: hurt
+  - first:
+      74: 7400012
+    second: run
+  - first:
+      74: 7400014
+    second: walk
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: rhinoceros
+  - first:
+      137: 13700002
+    second: rhinocerosLOD1
+  - first:
+      137: 13700004
+    second: rhinocerosLOD2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rhinocerosMateriale
+    second: {fileID: 2100000, guid: 6d05e85a0be9aa84f8aa243aed4d634c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
-    - serializedVersion: 16
-      name: idle
-      takeName: idle
-      firstFrame: 0
-      lastFrame: 286
-      wrapMode: 2
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: rhinoceros
-        weight: 1
-      - path: rhinocerosLOD1
-        weight: 1
-      - path: rhinocerosLOD2
-        weight: 1
-      - path: RhinocerosSkeleton
-        weight: 1
-      - path: RhinocerosSkeleton/Body
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head/Head_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1/Tail1_end
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: attack
-      takeName: attack
-      firstFrame: 0
-      lastFrame: 29
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: rhinoceros
-        weight: 1
-      - path: rhinocerosLOD1
-        weight: 1
-      - path: rhinocerosLOD2
-        weight: 1
-      - path: RhinocerosSkeleton
-        weight: 1
-      - path: RhinocerosSkeleton/Body
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head/Head_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1/Tail1_end
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: death
-      takeName: death
-      firstFrame: 0
-      lastFrame: 45
-      wrapMode: 8
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: rhinoceros
-        weight: 1
-      - path: rhinocerosLOD1
-        weight: 1
-      - path: rhinocerosLOD2
-        weight: 1
-      - path: RhinocerosSkeleton
-        weight: 1
-      - path: RhinocerosSkeleton/Body
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head/Head_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1/Tail1_end
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: eat
       takeName: eat
+      internalID: 7400008
       firstFrame: 0
-      lastFrame: 159
+      lastFrame: 100
       wrapMode: 2
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: rhinoceros
-        weight: 1
-      - path: rhinocerosLOD1
-        weight: 1
-      - path: rhinocerosLOD2
-        weight: 1
-      - path: RhinocerosSkeleton
-        weight: 1
-      - path: RhinocerosSkeleton/Body
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Head/Head_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/LeftLeg1/LeftLeg2/LeftPaw1/LeftPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Body2/Right Leg1/Right Leg2/RightPaw1/RightPaw1_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorLeftLeg1/PosteriorLeftLeg2/PosteriorLeftPaw2/PosteriorLeftPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2
-        weight: 1
-      - path: RhinocerosSkeleton/Body/PosteriorRightLeg1/PosteriorRight Leg2/PosteriorRightPaw2/PosteriorRightPaw2_end
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1
-        weight: 1
-      - path: RhinocerosSkeleton/Body/Tail1/Tail1_end
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: hurt
-      takeName: hurt
-      firstFrame: 0
-      lastFrame: 14
-      wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -509,8 +332,9 @@ ModelImporter:
     - serializedVersion: 16
       name: walk
       takeName: walk
+      internalID: 7400014
       firstFrame: 0
-      lastFrame: 39
+      lastFrame: 36
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -594,13 +418,22 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -610,9 +443,15 @@ ModelImporter:
     normalSmoothAngle: 180
     normalImportMode: 1
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -622,8 +461,11 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1

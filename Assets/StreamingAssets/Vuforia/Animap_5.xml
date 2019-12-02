@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Mediterranean_1" size="1.000000 0.226511" />
     <ImageTarget name="Grassland_1" size="1.000000 0.341530" />
     <ImageTarget name="Dry_savanna_2" size="1.000000 0.698113" />
     <ImageTarget name="Dry_savanna_1" size="1.000000 1.635548" />
@@ -14,7 +15,6 @@
     <ImageTarget name="Moist_savanna_2" size="1.000000 1.243678" />
     <ImageTarget name="Moist_savanna_1" size="1.000000 0.584923" />
     <ImageTarget name="Africa" size="1.000000 1.046524" />
-    <ImageTarget name="Mediterranean_1" size="1.000000 0.226693" />
     <ImageTarget name="Mediterranean_2" size="1.000000 0.421488" />
   </Tracking>
 </QCARConfig>

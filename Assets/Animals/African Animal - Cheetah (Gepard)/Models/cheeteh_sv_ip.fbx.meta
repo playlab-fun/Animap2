@@ -1,144 +1,404 @@
 fileFormatVersion: 2
 guid: cc9c3913ffcaa3b4e9b5e1a3cb5b8e27
-timeCreated: 1451179923
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Cheeteh_HP
-    100002: Cheeteh_LP
-    100004: Cheeteh_SHP
-    100006: Cheeteh_SLP
-    100008: //RootNode
-    100010: Lion_Head_JawSHJnt
-    100012: Lion_Head_TopSHJnt
-    100014: Lion_l_Clavicle_01_01SHJnt
-    100016: Lion_l_Eye_01SHJnt
-    100018: Lion_l_FrontLeg_AnkleSHJnt
-    100020: Lion_l_FrontLeg_BallSHJnt
-    100022: Lion_l_FrontLeg_HipSHJnt
-    100024: Lion_l_FrontLeg_KneeSHJnt
-    100026: Lion_l_HindLeg_AnkleSHJnt
-    100028: Lion_l_HindLeg_BallSHJnt
-    100030: Lion_l_HindLeg_HipSHJnt
-    100032: Lion_l_HindLeg_Knee1SHJnt
-    100034: Lion_l_HindLeg_Knee2SHJnt
-    100036: Lion_Neck_01SHJnt
-    100038: Lion_Neck_02SHJnt
-    100040: Lion_Neck_TopSHJnt
-    100042: Lion_r_Clavicle_01_01SHJnt
-    100044: Lion_r_Eye_01SHJnt
-    100046: Lion_r_FrontLeg_AnkleSHJnt
-    100048: Lion_r_FrontLeg_BallSHJnt
-    100050: Lion_r_FrontLeg_HipSHJnt
-    100052: Lion_r_FrontLeg_KneeSHJnt
-    100054: Lion_r_HindLeg_AnkleSHJnt
-    100056: Lion_r_HindLeg_BallSHJnt
-    100058: Lion_r_HindLeg_HipSHJnt
-    100060: Lion_r_HindLeg_Knee1SHJnt
-    100062: Lion_r_HindLeg_Knee2SHJnt
-    100064: Lion_ROOTSHJnt
-    100066: Lion_SHJntGrp
-    100068: Lion_Spine_01SHJnt
-    100070: Lion_Spine_02SHJnt
-    100072: Lion_Spine_03SHJnt
-    100074: Lion_Spine_04SHJnt
-    100076: Lion_Spine_TopSHJnt
-    100078: Lion_Tail_01_01SHJnt
-    100080: Lion_Tail_01_02SHJnt
-    100082: Lion_Tail_01_03SHJnt
-    100084: Lion_Tail_01_04SHJnt
-    100086: Lion_Tail_01_05SHJnt
-    100088: Lion_Tail_01_06SHJnt
-    100090: RootMotion
-    400000: Cheeteh_HP
-    400002: Cheeteh_LP
-    400004: Cheeteh_SHP
-    400006: Cheeteh_SLP
-    400008: //RootNode
-    400010: Lion_Head_JawSHJnt
-    400012: Lion_Head_TopSHJnt
-    400014: Lion_l_Clavicle_01_01SHJnt
-    400016: Lion_l_Eye_01SHJnt
-    400018: Lion_l_FrontLeg_AnkleSHJnt
-    400020: Lion_l_FrontLeg_BallSHJnt
-    400022: Lion_l_FrontLeg_HipSHJnt
-    400024: Lion_l_FrontLeg_KneeSHJnt
-    400026: Lion_l_HindLeg_AnkleSHJnt
-    400028: Lion_l_HindLeg_BallSHJnt
-    400030: Lion_l_HindLeg_HipSHJnt
-    400032: Lion_l_HindLeg_Knee1SHJnt
-    400034: Lion_l_HindLeg_Knee2SHJnt
-    400036: Lion_Neck_01SHJnt
-    400038: Lion_Neck_02SHJnt
-    400040: Lion_Neck_TopSHJnt
-    400042: Lion_r_Clavicle_01_01SHJnt
-    400044: Lion_r_Eye_01SHJnt
-    400046: Lion_r_FrontLeg_AnkleSHJnt
-    400048: Lion_r_FrontLeg_BallSHJnt
-    400050: Lion_r_FrontLeg_HipSHJnt
-    400052: Lion_r_FrontLeg_KneeSHJnt
-    400054: Lion_r_HindLeg_AnkleSHJnt
-    400056: Lion_r_HindLeg_BallSHJnt
-    400058: Lion_r_HindLeg_HipSHJnt
-    400060: Lion_r_HindLeg_Knee1SHJnt
-    400062: Lion_r_HindLeg_Knee2SHJnt
-    400064: Lion_ROOTSHJnt
-    400066: Lion_SHJntGrp
-    400068: Lion_Spine_01SHJnt
-    400070: Lion_Spine_02SHJnt
-    400072: Lion_Spine_03SHJnt
-    400074: Lion_Spine_04SHJnt
-    400076: Lion_Spine_TopSHJnt
-    400078: Lion_Tail_01_01SHJnt
-    400080: Lion_Tail_01_02SHJnt
-    400082: Lion_Tail_01_03SHJnt
-    400084: Lion_Tail_01_04SHJnt
-    400086: Lion_Tail_01_05SHJnt
-    400088: Lion_Tail_01_06SHJnt
-    400090: RootMotion
-    4300000: Cheeteh_SHP
-    4300002: Cheeteh_HP
-    4300004: Cheeteh_LP
-    4300006: Cheeteh_SLP
-    7400000: BindPose
-    7400002: Walk
-    7400004: Run
-    7400006: Jump
-    7400008: Attack
-    7400010: Start Eating
-    7400012: End Eating
-    7400014: End Eating
-    7400016: Idle
-    7400018: Fight Idle
-    7400020: Start  Rest
-    7400022: Rest
-    7400024: End Rest
-    7400026: Go To Sleep
-    7400028: Sleep
-    7400030: End Sleep
-    7400032: Hit Left
-    7400034: Hit Right
-    7400036: Hit Up
-    7400038: Hit Back
-    7400040: Walk Back
-    7400042: Attack Paw
-    7400044: Death
-    7400046: Roaring
-    7400048: Lying Eating
-    7400050: Death 01
-    7400052: Creeping
-    7400054: Eating
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Cheeteh_HP
-    13700002: Cheeteh_LP
-    13700004: Cheeteh_SHP
-    13700006: Cheeteh_SLP
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Cheeteh_HP
+  - first:
+      1: 100002
+    second: Cheeteh_LP
+  - first:
+      1: 100004
+    second: Cheeteh_SHP
+  - first:
+      1: 100006
+    second: Cheeteh_SLP
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      1: 100010
+    second: Lion_Head_JawSHJnt
+  - first:
+      1: 100012
+    second: Lion_Head_TopSHJnt
+  - first:
+      1: 100014
+    second: Lion_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100016
+    second: Lion_l_Eye_01SHJnt
+  - first:
+      1: 100018
+    second: Lion_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100020
+    second: Lion_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100022
+    second: Lion_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100024
+    second: Lion_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100026
+    second: Lion_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100028
+    second: Lion_l_HindLeg_BallSHJnt
+  - first:
+      1: 100030
+    second: Lion_l_HindLeg_HipSHJnt
+  - first:
+      1: 100032
+    second: Lion_l_HindLeg_Knee1SHJnt
+  - first:
+      1: 100034
+    second: Lion_l_HindLeg_Knee2SHJnt
+  - first:
+      1: 100036
+    second: Lion_Neck_01SHJnt
+  - first:
+      1: 100038
+    second: Lion_Neck_02SHJnt
+  - first:
+      1: 100040
+    second: Lion_Neck_TopSHJnt
+  - first:
+      1: 100042
+    second: Lion_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100044
+    second: Lion_r_Eye_01SHJnt
+  - first:
+      1: 100046
+    second: Lion_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100048
+    second: Lion_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100050
+    second: Lion_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100052
+    second: Lion_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100054
+    second: Lion_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100056
+    second: Lion_r_HindLeg_BallSHJnt
+  - first:
+      1: 100058
+    second: Lion_r_HindLeg_HipSHJnt
+  - first:
+      1: 100060
+    second: Lion_r_HindLeg_Knee1SHJnt
+  - first:
+      1: 100062
+    second: Lion_r_HindLeg_Knee2SHJnt
+  - first:
+      1: 100064
+    second: Lion_ROOTSHJnt
+  - first:
+      1: 100066
+    second: Lion_SHJntGrp
+  - first:
+      1: 100068
+    second: Lion_Spine_01SHJnt
+  - first:
+      1: 100070
+    second: Lion_Spine_02SHJnt
+  - first:
+      1: 100072
+    second: Lion_Spine_03SHJnt
+  - first:
+      1: 100074
+    second: Lion_Spine_04SHJnt
+  - first:
+      1: 100076
+    second: Lion_Spine_TopSHJnt
+  - first:
+      1: 100078
+    second: Lion_Tail_01_01SHJnt
+  - first:
+      1: 100080
+    second: Lion_Tail_01_02SHJnt
+  - first:
+      1: 100082
+    second: Lion_Tail_01_03SHJnt
+  - first:
+      1: 100084
+    second: Lion_Tail_01_04SHJnt
+  - first:
+      1: 100086
+    second: Lion_Tail_01_05SHJnt
+  - first:
+      1: 100088
+    second: Lion_Tail_01_06SHJnt
+  - first:
+      1: 100090
+    second: RootMotion
+  - first:
+      4: 400000
+    second: Cheeteh_HP
+  - first:
+      4: 400002
+    second: Cheeteh_LP
+  - first:
+      4: 400004
+    second: Cheeteh_SHP
+  - first:
+      4: 400006
+    second: Cheeteh_SLP
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      4: 400010
+    second: Lion_Head_JawSHJnt
+  - first:
+      4: 400012
+    second: Lion_Head_TopSHJnt
+  - first:
+      4: 400014
+    second: Lion_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400016
+    second: Lion_l_Eye_01SHJnt
+  - first:
+      4: 400018
+    second: Lion_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400020
+    second: Lion_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400022
+    second: Lion_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400024
+    second: Lion_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400026
+    second: Lion_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400028
+    second: Lion_l_HindLeg_BallSHJnt
+  - first:
+      4: 400030
+    second: Lion_l_HindLeg_HipSHJnt
+  - first:
+      4: 400032
+    second: Lion_l_HindLeg_Knee1SHJnt
+  - first:
+      4: 400034
+    second: Lion_l_HindLeg_Knee2SHJnt
+  - first:
+      4: 400036
+    second: Lion_Neck_01SHJnt
+  - first:
+      4: 400038
+    second: Lion_Neck_02SHJnt
+  - first:
+      4: 400040
+    second: Lion_Neck_TopSHJnt
+  - first:
+      4: 400042
+    second: Lion_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400044
+    second: Lion_r_Eye_01SHJnt
+  - first:
+      4: 400046
+    second: Lion_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400048
+    second: Lion_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400050
+    second: Lion_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400052
+    second: Lion_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400054
+    second: Lion_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400056
+    second: Lion_r_HindLeg_BallSHJnt
+  - first:
+      4: 400058
+    second: Lion_r_HindLeg_HipSHJnt
+  - first:
+      4: 400060
+    second: Lion_r_HindLeg_Knee1SHJnt
+  - first:
+      4: 400062
+    second: Lion_r_HindLeg_Knee2SHJnt
+  - first:
+      4: 400064
+    second: Lion_ROOTSHJnt
+  - first:
+      4: 400066
+    second: Lion_SHJntGrp
+  - first:
+      4: 400068
+    second: Lion_Spine_01SHJnt
+  - first:
+      4: 400070
+    second: Lion_Spine_02SHJnt
+  - first:
+      4: 400072
+    second: Lion_Spine_03SHJnt
+  - first:
+      4: 400074
+    second: Lion_Spine_04SHJnt
+  - first:
+      4: 400076
+    second: Lion_Spine_TopSHJnt
+  - first:
+      4: 400078
+    second: Lion_Tail_01_01SHJnt
+  - first:
+      4: 400080
+    second: Lion_Tail_01_02SHJnt
+  - first:
+      4: 400082
+    second: Lion_Tail_01_03SHJnt
+  - first:
+      4: 400084
+    second: Lion_Tail_01_04SHJnt
+  - first:
+      4: 400086
+    second: Lion_Tail_01_05SHJnt
+  - first:
+      4: 400088
+    second: Lion_Tail_01_06SHJnt
+  - first:
+      4: 400090
+    second: RootMotion
+  - first:
+      43: 4300000
+    second: Cheeteh_SHP
+  - first:
+      43: 4300002
+    second: Cheeteh_HP
+  - first:
+      43: 4300004
+    second: Cheeteh_LP
+  - first:
+      43: 4300006
+    second: Cheeteh_SLP
+  - first:
+      74: 7400000
+    second: BindPose
+  - first:
+      74: 7400002
+    second: Walk
+  - first:
+      74: 7400004
+    second: Run
+  - first:
+      74: 7400006
+    second: Jump
+  - first:
+      74: 7400008
+    second: Attack
+  - first:
+      74: 7400010
+    second: Start Eating
+  - first:
+      74: 7400012
+    second: End Eating
+  - first:
+      74: 7400014
+    second: End Eating
+  - first:
+      74: 7400016
+    second: Idle
+  - first:
+      74: 7400018
+    second: Fight Idle
+  - first:
+      74: 7400020
+    second: Start  Rest
+  - first:
+      74: 7400022
+    second: Rest
+  - first:
+      74: 7400024
+    second: End Rest
+  - first:
+      74: 7400026
+    second: Go To Sleep
+  - first:
+      74: 7400028
+    second: Sleep
+  - first:
+      74: 7400030
+    second: End Sleep
+  - first:
+      74: 7400032
+    second: Hit Left
+  - first:
+      74: 7400034
+    second: Hit Right
+  - first:
+      74: 7400036
+    second: Hit Up
+  - first:
+      74: 7400038
+    second: Hit Back
+  - first:
+      74: 7400040
+    second: Walk Back
+  - first:
+      74: 7400042
+    second: Attack Paw
+  - first:
+      74: 7400044
+    second: Death
+  - first:
+      74: 7400046
+    second: Roaring
+  - first:
+      74: 7400048
+    second: Lying Eating
+  - first:
+      74: 7400050
+    second: Death 01
+  - first:
+      74: 7400052
+    second: Creeping
+  - first:
+      74: 7400054
+    second: Eating
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Cheeteh_HP
+  - first:
+      137: 13700002
+    second: Cheeteh_LP
+  - first:
+      137: 13700004
+    second: Cheeteh_SHP
+  - first:
+      137: 13700006
+    second: Cheeteh_SLP
+  externalObjects: {}
   materials:
     importMaterials: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -151,16 +411,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: BindPose
       takeName: 
+      internalID: 7400000
       firstFrame: 0
       lastFrame: 0
       wrapMode: 0
@@ -189,9 +453,10 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: 
+      internalID: 7400002
       firstFrame: 2
       lastFrame: 33
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -217,6 +482,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: 
+      internalID: 7400004
       firstFrame: 36
       lastFrame: 46
       wrapMode: 0
@@ -245,6 +511,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump
       takeName: 
+      internalID: 7400006
       firstFrame: 49
       lastFrame: 68
       wrapMode: 0
@@ -273,6 +540,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack
       takeName: 
+      internalID: 7400008
       firstFrame: 71
       lastFrame: 107
       wrapMode: 0
@@ -301,6 +569,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Start Eating
       takeName: 
+      internalID: 7400010
       firstFrame: 108
       lastFrame: 121
       wrapMode: 0
@@ -329,6 +598,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating
       takeName: 
+      internalID: 7400054
       firstFrame: 123
       lastFrame: 180
       wrapMode: 0
@@ -357,6 +627,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Eating
       takeName: 
+      internalID: 7400012
       firstFrame: 182
       lastFrame: 202
       wrapMode: 0
@@ -385,6 +656,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: 
+      internalID: 7400016
       firstFrame: 204
       lastFrame: 244
       wrapMode: 0
@@ -413,6 +685,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fight Idle
       takeName: 
+      internalID: 7400018
       firstFrame: 247
       lastFrame: 307
       wrapMode: 0
@@ -441,6 +714,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Start  Rest
       takeName: 
+      internalID: 7400020
       firstFrame: 309
       lastFrame: 342
       wrapMode: 0
@@ -469,6 +743,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rest
       takeName: 
+      internalID: 7400022
       firstFrame: 344
       lastFrame: 403
       wrapMode: 0
@@ -497,6 +772,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Rest
       takeName: 
+      internalID: 7400024
       firstFrame: 405
       lastFrame: 439
       wrapMode: 0
@@ -525,6 +801,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Go To Sleep
       takeName: 
+      internalID: 7400026
       firstFrame: 440
       lastFrame: 459
       wrapMode: 0
@@ -553,6 +830,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Sleep
       takeName: 
+      internalID: 7400028
       firstFrame: 461
       lastFrame: 501
       wrapMode: 0
@@ -581,6 +859,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Sleep
       takeName: 
+      internalID: 7400030
       firstFrame: 503
       lastFrame: 522
       wrapMode: 0
@@ -609,6 +888,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Left
       takeName: 
+      internalID: 7400032
       firstFrame: 524
       lastFrame: 538
       wrapMode: 0
@@ -637,6 +917,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Right
       takeName: 
+      internalID: 7400034
       firstFrame: 538
       lastFrame: 553
       wrapMode: 0
@@ -665,6 +946,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Up
       takeName: 
+      internalID: 7400036
       firstFrame: 553
       lastFrame: 568
       wrapMode: 0
@@ -693,6 +975,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Back
       takeName: 
+      internalID: 7400038
       firstFrame: 568
       lastFrame: 583
       wrapMode: 0
@@ -721,6 +1004,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk Back
       takeName: 
+      internalID: 7400040
       firstFrame: 585
       lastFrame: 617
       wrapMode: 0
@@ -749,6 +1033,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack Paw
       takeName: 
+      internalID: 7400042
       firstFrame: 620
       lastFrame: 644
       wrapMode: 0
@@ -777,6 +1062,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: 
+      internalID: 7400044
       firstFrame: 646
       lastFrame: 662
       wrapMode: 0
@@ -805,6 +1091,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Roaring
       takeName: 
+      internalID: 7400046
       firstFrame: 664
       lastFrame: 728
       wrapMode: 0
@@ -833,6 +1120,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Lying Eating
       takeName: 
+      internalID: 7400048
       firstFrame: 731
       lastFrame: 823
       wrapMode: 0
@@ -861,6 +1149,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death 01
       takeName: 
+      internalID: 7400050
       firstFrame: 825
       lastFrame: 844
       wrapMode: 0
@@ -889,6 +1178,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Creeping
       takeName: 
+      internalID: 7400052
       firstFrame: 846
       lastFrame: 910
       wrapMode: 0
@@ -920,13 +1210,22 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -936,10 +1235,15 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -949,8 +1253,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0

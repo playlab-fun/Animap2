@@ -1,135 +1,383 @@
 fileFormatVersion: 2
 guid: f5932d12b0dc41248addd8e2fede10ae
-timeCreated: 1464646374
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Gazelle_HP
-    100002: Gazelle_LP
-    100004: Gazelle_SLP
-    100006: //RootNode
-    100008: Horse_Head_JawEndSHJnt
-    100010: Horse_Head_JawSHJnt
-    100012: Horse_Head_TopSHJnt
-    100014: Horse_l_Clavicle_01_01SHJnt
-    100016: Horse_l_Ear_01SHJnt
-    100018: Horse_l_Eye_01SHJnt
-    100020: Horse_l_FrontLeg_AnkleSHJnt
-    100022: Horse_l_FrontLeg_BallSHJnt
-    100024: Horse_l_FrontLeg_HipSHJnt
-    100026: Horse_l_FrontLeg_KneeSHJnt
-    100028: Horse_l_FrontLeg_ToeSHJnt
-    100030: Horse_l_HindLeg_AnkleSHJnt
-    100032: Horse_l_HindLeg_BallSHJnt
-    100034: Horse_l_HindLeg_HipSHJnt
-    100036: Horse_l_HindLeg_Knee1SHJnt
-    100038: Horse_l_HindLeg_Knee2SHJnt
-    100040: Horse_Neck_01SHJnt
-    100042: Horse_Neck_02SHJnt
-    100044: Horse_Neck_TopSHJnt
-    100046: Horse_r_Clavicle_01_01SHJnt
-    100048: Horse_r_Ear_01SHJnt
-    100050: Horse_r_Eye_01SHJnt
-    100052: Horse_r_FrontLeg_AnkleSHJnt
-    100054: Horse_r_FrontLeg_BallSHJnt
-    100056: Horse_r_FrontLeg_HipSHJnt
-    100058: Horse_r_FrontLeg_KneeSHJnt
-    100060: Horse_r_FrontLeg_ToeSHJnt
-    100062: Horse_r_HindLeg_AnkleSHJnt
-    100064: Horse_r_HindLeg_BallSHJnt
-    100066: Horse_r_HindLeg_HipSHJnt
-    100068: Horse_r_HindLeg_Knee1SHJnt
-    100070: Horse_r_HindLeg_Knee2SHJnt
-    100072: Horse_ROOTSHJnt
-    100074: Horse_Spine_01SHJnt
-    100076: Horse_Spine_02SHJnt
-    100078: Horse_Spine_03SHJnt
-    100080: Horse_Spine_TopSHJnt
-    100082: Horse_Tasl_01_01SHJnt
-    100084: Horse_Tasl_01_02SHJnt
-    100086: Horse_Tasl_01_03SHJnt
-    100088: Horse_Tasl_01_04SHJnt
-    100090: Horse_Tasl_01_05SHJnt
-    100092: RootMOOtion
-    400000: Gazelle_HP
-    400002: Gazelle_LP
-    400004: Gazelle_SLP
-    400006: //RootNode
-    400008: Horse_Head_JawEndSHJnt
-    400010: Horse_Head_JawSHJnt
-    400012: Horse_Head_TopSHJnt
-    400014: Horse_l_Clavicle_01_01SHJnt
-    400016: Horse_l_Ear_01SHJnt
-    400018: Horse_l_Eye_01SHJnt
-    400020: Horse_l_FrontLeg_AnkleSHJnt
-    400022: Horse_l_FrontLeg_BallSHJnt
-    400024: Horse_l_FrontLeg_HipSHJnt
-    400026: Horse_l_FrontLeg_KneeSHJnt
-    400028: Horse_l_FrontLeg_ToeSHJnt
-    400030: Horse_l_HindLeg_AnkleSHJnt
-    400032: Horse_l_HindLeg_BallSHJnt
-    400034: Horse_l_HindLeg_HipSHJnt
-    400036: Horse_l_HindLeg_Knee1SHJnt
-    400038: Horse_l_HindLeg_Knee2SHJnt
-    400040: Horse_Neck_01SHJnt
-    400042: Horse_Neck_02SHJnt
-    400044: Horse_Neck_TopSHJnt
-    400046: Horse_r_Clavicle_01_01SHJnt
-    400048: Horse_r_Ear_01SHJnt
-    400050: Horse_r_Eye_01SHJnt
-    400052: Horse_r_FrontLeg_AnkleSHJnt
-    400054: Horse_r_FrontLeg_BallSHJnt
-    400056: Horse_r_FrontLeg_HipSHJnt
-    400058: Horse_r_FrontLeg_KneeSHJnt
-    400060: Horse_r_FrontLeg_ToeSHJnt
-    400062: Horse_r_HindLeg_AnkleSHJnt
-    400064: Horse_r_HindLeg_BallSHJnt
-    400066: Horse_r_HindLeg_HipSHJnt
-    400068: Horse_r_HindLeg_Knee1SHJnt
-    400070: Horse_r_HindLeg_Knee2SHJnt
-    400072: Horse_ROOTSHJnt
-    400074: Horse_Spine_01SHJnt
-    400076: Horse_Spine_02SHJnt
-    400078: Horse_Spine_03SHJnt
-    400080: Horse_Spine_TopSHJnt
-    400082: Horse_Tasl_01_01SHJnt
-    400084: Horse_Tasl_01_02SHJnt
-    400086: Horse_Tasl_01_03SHJnt
-    400088: Horse_Tasl_01_04SHJnt
-    400090: Horse_Tasl_01_05SHJnt
-    400092: RootMOOtion
-    4300000: Gazelle_LP
-    4300002: Gazelle_SLP
-    4300004: Gazelle_HP
-    7400000: Take 001
-    7400002: Bind Pose
-    7400004: Idle
-    7400006: Start Rest
-    7400008: Rest
-    7400010: End Rest
-    7400012: Attack Back Left Leg
-    7400014: Attack Back Legs
-    7400016: Start Eating
-    7400018: Eating
-    7400020: End Eating
-    7400022: Fight Idle Left Leg
-    7400024: Hit Left
-    7400026: Hit Right
-    7400028: Hit Front
-    7400030: Hit Back
-    7400032: Death
-    7400034: Springbok
-    7400036: Jumping
-    7400038: Strafe Left
-    7400040: Strafe Right
-    7400042: Walk
-    7400044: Trot
-    7400046: Gallop
-    9500000: //RootNode
-    13700000: Gazelle_HP
-    13700002: Gazelle_LP
-    13700004: Gazelle_SLP
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Gazelle_HP
+  - first:
+      1: 100002
+    second: Gazelle_LP
+  - first:
+      1: 100004
+    second: Gazelle_SLP
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: Horse_Head_JawEndSHJnt
+  - first:
+      1: 100010
+    second: Horse_Head_JawSHJnt
+  - first:
+      1: 100012
+    second: Horse_Head_TopSHJnt
+  - first:
+      1: 100014
+    second: Horse_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100016
+    second: Horse_l_Ear_01SHJnt
+  - first:
+      1: 100018
+    second: Horse_l_Eye_01SHJnt
+  - first:
+      1: 100020
+    second: Horse_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100022
+    second: Horse_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100024
+    second: Horse_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100026
+    second: Horse_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100028
+    second: Horse_l_FrontLeg_ToeSHJnt
+  - first:
+      1: 100030
+    second: Horse_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100032
+    second: Horse_l_HindLeg_BallSHJnt
+  - first:
+      1: 100034
+    second: Horse_l_HindLeg_HipSHJnt
+  - first:
+      1: 100036
+    second: Horse_l_HindLeg_Knee1SHJnt
+  - first:
+      1: 100038
+    second: Horse_l_HindLeg_Knee2SHJnt
+  - first:
+      1: 100040
+    second: Horse_Neck_01SHJnt
+  - first:
+      1: 100042
+    second: Horse_Neck_02SHJnt
+  - first:
+      1: 100044
+    second: Horse_Neck_TopSHJnt
+  - first:
+      1: 100046
+    second: Horse_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100048
+    second: Horse_r_Ear_01SHJnt
+  - first:
+      1: 100050
+    second: Horse_r_Eye_01SHJnt
+  - first:
+      1: 100052
+    second: Horse_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100054
+    second: Horse_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100056
+    second: Horse_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100058
+    second: Horse_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100060
+    second: Horse_r_FrontLeg_ToeSHJnt
+  - first:
+      1: 100062
+    second: Horse_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100064
+    second: Horse_r_HindLeg_BallSHJnt
+  - first:
+      1: 100066
+    second: Horse_r_HindLeg_HipSHJnt
+  - first:
+      1: 100068
+    second: Horse_r_HindLeg_Knee1SHJnt
+  - first:
+      1: 100070
+    second: Horse_r_HindLeg_Knee2SHJnt
+  - first:
+      1: 100072
+    second: Horse_ROOTSHJnt
+  - first:
+      1: 100074
+    second: Horse_Spine_01SHJnt
+  - first:
+      1: 100076
+    second: Horse_Spine_02SHJnt
+  - first:
+      1: 100078
+    second: Horse_Spine_03SHJnt
+  - first:
+      1: 100080
+    second: Horse_Spine_TopSHJnt
+  - first:
+      1: 100082
+    second: Horse_Tasl_01_01SHJnt
+  - first:
+      1: 100084
+    second: Horse_Tasl_01_02SHJnt
+  - first:
+      1: 100086
+    second: Horse_Tasl_01_03SHJnt
+  - first:
+      1: 100088
+    second: Horse_Tasl_01_04SHJnt
+  - first:
+      1: 100090
+    second: Horse_Tasl_01_05SHJnt
+  - first:
+      1: 100092
+    second: RootMOOtion
+  - first:
+      4: 400000
+    second: Gazelle_HP
+  - first:
+      4: 400002
+    second: Gazelle_LP
+  - first:
+      4: 400004
+    second: Gazelle_SLP
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: Horse_Head_JawEndSHJnt
+  - first:
+      4: 400010
+    second: Horse_Head_JawSHJnt
+  - first:
+      4: 400012
+    second: Horse_Head_TopSHJnt
+  - first:
+      4: 400014
+    second: Horse_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400016
+    second: Horse_l_Ear_01SHJnt
+  - first:
+      4: 400018
+    second: Horse_l_Eye_01SHJnt
+  - first:
+      4: 400020
+    second: Horse_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400022
+    second: Horse_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400024
+    second: Horse_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400026
+    second: Horse_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400028
+    second: Horse_l_FrontLeg_ToeSHJnt
+  - first:
+      4: 400030
+    second: Horse_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400032
+    second: Horse_l_HindLeg_BallSHJnt
+  - first:
+      4: 400034
+    second: Horse_l_HindLeg_HipSHJnt
+  - first:
+      4: 400036
+    second: Horse_l_HindLeg_Knee1SHJnt
+  - first:
+      4: 400038
+    second: Horse_l_HindLeg_Knee2SHJnt
+  - first:
+      4: 400040
+    second: Horse_Neck_01SHJnt
+  - first:
+      4: 400042
+    second: Horse_Neck_02SHJnt
+  - first:
+      4: 400044
+    second: Horse_Neck_TopSHJnt
+  - first:
+      4: 400046
+    second: Horse_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400048
+    second: Horse_r_Ear_01SHJnt
+  - first:
+      4: 400050
+    second: Horse_r_Eye_01SHJnt
+  - first:
+      4: 400052
+    second: Horse_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400054
+    second: Horse_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400056
+    second: Horse_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400058
+    second: Horse_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400060
+    second: Horse_r_FrontLeg_ToeSHJnt
+  - first:
+      4: 400062
+    second: Horse_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400064
+    second: Horse_r_HindLeg_BallSHJnt
+  - first:
+      4: 400066
+    second: Horse_r_HindLeg_HipSHJnt
+  - first:
+      4: 400068
+    second: Horse_r_HindLeg_Knee1SHJnt
+  - first:
+      4: 400070
+    second: Horse_r_HindLeg_Knee2SHJnt
+  - first:
+      4: 400072
+    second: Horse_ROOTSHJnt
+  - first:
+      4: 400074
+    second: Horse_Spine_01SHJnt
+  - first:
+      4: 400076
+    second: Horse_Spine_02SHJnt
+  - first:
+      4: 400078
+    second: Horse_Spine_03SHJnt
+  - first:
+      4: 400080
+    second: Horse_Spine_TopSHJnt
+  - first:
+      4: 400082
+    second: Horse_Tasl_01_01SHJnt
+  - first:
+      4: 400084
+    second: Horse_Tasl_01_02SHJnt
+  - first:
+      4: 400086
+    second: Horse_Tasl_01_03SHJnt
+  - first:
+      4: 400088
+    second: Horse_Tasl_01_04SHJnt
+  - first:
+      4: 400090
+    second: Horse_Tasl_01_05SHJnt
+  - first:
+      4: 400092
+    second: RootMOOtion
+  - first:
+      43: 4300000
+    second: Gazelle_LP
+  - first:
+      43: 4300002
+    second: Gazelle_SLP
+  - first:
+      43: 4300004
+    second: Gazelle_HP
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      74: 7400002
+    second: Bind Pose
+  - first:
+      74: 7400004
+    second: Idle
+  - first:
+      74: 7400006
+    second: Start Rest
+  - first:
+      74: 7400008
+    second: Rest
+  - first:
+      74: 7400010
+    second: End Rest
+  - first:
+      74: 7400012
+    second: Attack Back Left Leg
+  - first:
+      74: 7400014
+    second: Attack Back Legs
+  - first:
+      74: 7400016
+    second: Start Eating
+  - first:
+      74: 7400018
+    second: Eating
+  - first:
+      74: 7400020
+    second: End Eating
+  - first:
+      74: 7400022
+    second: Fight Idle Left Leg
+  - first:
+      74: 7400024
+    second: Hit Left
+  - first:
+      74: 7400026
+    second: Hit Right
+  - first:
+      74: 7400028
+    second: Hit Front
+  - first:
+      74: 7400030
+    second: Hit Back
+  - first:
+      74: 7400032
+    second: Death
+  - first:
+      74: 7400034
+    second: Springbok
+  - first:
+      74: 7400036
+    second: Jumping
+  - first:
+      74: 7400038
+    second: Strafe Left
+  - first:
+      74: 7400040
+    second: Strafe Right
+  - first:
+      74: 7400042
+    second: Walk
+  - first:
+      74: 7400044
+    second: Trot
+  - first:
+      74: 7400046
+    second: Gallop
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Gazelle_HP
+  - first:
+      137: 13700002
+    second: Gazelle_LP
+  - first:
+      137: 13700004
+    second: Gazelle_SLP
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -149,6 +397,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -160,6 +409,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Bind Pose
       takeName: 
+      internalID: 7400002
       firstFrame: 0
       lastFrame: 0
       wrapMode: 0
@@ -188,6 +438,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: 
+      internalID: 7400004
       firstFrame: 3
       lastFrame: 60
       wrapMode: 0
@@ -216,6 +467,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Start Rest
       takeName: 
+      internalID: 7400006
       firstFrame: 62
       lastFrame: 114
       wrapMode: 0
@@ -244,6 +496,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rest
       takeName: 
+      internalID: 7400008
       firstFrame: 114
       lastFrame: 210
       wrapMode: 0
@@ -272,6 +525,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Rest
       takeName: 
+      internalID: 7400010
       firstFrame: 211
       lastFrame: 263
       wrapMode: 0
@@ -300,6 +554,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack Back Left Leg
       takeName: 
+      internalID: 7400012
       firstFrame: 265
       lastFrame: 289
       wrapMode: 0
@@ -328,6 +583,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack Back Legs
       takeName: 
+      internalID: 7400014
       firstFrame: 292
       lastFrame: 333
       wrapMode: 0
@@ -356,8 +612,9 @@ ModelImporter:
     - serializedVersion: 16
       name: Start Eating
       takeName: 
+      internalID: 7400016
       firstFrame: 335
-      lastFrame: 356
+      lastFrame: 455
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -384,6 +641,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eating
       takeName: 
+      internalID: 7400018
       firstFrame: 357
       lastFrame: 456
       wrapMode: 0
@@ -412,6 +670,7 @@ ModelImporter:
     - serializedVersion: 16
       name: End Eating
       takeName: 
+      internalID: 7400020
       firstFrame: 457
       lastFrame: 477
       wrapMode: 0
@@ -440,6 +699,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fight Idle Left Leg
       takeName: 
+      internalID: 7400022
       firstFrame: 479
       lastFrame: 537
       wrapMode: 0
@@ -468,6 +728,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Left
       takeName: 
+      internalID: 7400024
       firstFrame: 540
       lastFrame: 559
       wrapMode: 0
@@ -496,6 +757,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Right
       takeName: 
+      internalID: 7400026
       firstFrame: 560
       lastFrame: 580
       wrapMode: 0
@@ -524,6 +786,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Front
       takeName: 
+      internalID: 7400028
       firstFrame: 581
       lastFrame: 601
       wrapMode: 0
@@ -552,6 +815,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit Back
       takeName: 
+      internalID: 7400030
       firstFrame: 602
       lastFrame: 622
       wrapMode: 0
@@ -580,6 +844,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: 
+      internalID: 7400032
       firstFrame: 624
       lastFrame: 651
       wrapMode: 0
@@ -608,6 +873,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Springbok
       takeName: 
+      internalID: 7400034
       firstFrame: 653
       lastFrame: 676
       wrapMode: 0
@@ -636,6 +902,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jumping
       takeName: 
+      internalID: 7400036
       firstFrame: 678
       lastFrame: 713
       wrapMode: 0
@@ -664,6 +931,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Strafe Left
       takeName: 
+      internalID: 7400038
       firstFrame: 716
       lastFrame: 751
       wrapMode: 0
@@ -692,6 +960,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Strafe Right
       takeName: 
+      internalID: 7400040
       firstFrame: 754
       lastFrame: 789
       wrapMode: 0
@@ -720,6 +989,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: 
+      internalID: 7400042
       firstFrame: 792
       lastFrame: 821
       wrapMode: 0
@@ -748,6 +1018,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Trot
       takeName: 
+      internalID: 7400044
       firstFrame: 824
       lastFrame: 846
       wrapMode: 0
@@ -776,6 +1047,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Gallop
       takeName: 
+      internalID: 7400046
       firstFrame: 849
       lastFrame: 861
       wrapMode: 0
@@ -807,6 +1079,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -814,10 +1087,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -829,10 +1105,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -842,8 +1122,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: RootMOOtion
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
