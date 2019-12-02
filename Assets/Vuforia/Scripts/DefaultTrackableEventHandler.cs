@@ -100,7 +100,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         switch (this.gameObject.tag)
         {
-      
             case "Desert":
                 desertText.SetActive(true);
                 break;
@@ -120,7 +119,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                 rainforestText.SetActive(true);
                 break;
         }
-
 
         if (mTrackableBehaviour)
         {

@@ -29,6 +29,7 @@ public class ChangeToVRMode : MonoBehaviour
             MixedRealityController.Instance.SetMode(MixedRealityController.Mode.VIEWER_VR);
             target.SetActive(false);
             TurnOffAllText();
+            Debug.Log("Turning off text");
         }
     }
 
