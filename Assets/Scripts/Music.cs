@@ -12,15 +12,5 @@ public class Music : MonoBehaviour {
 			DontDestroyOnLoad (this.gameObject);
 			created = true;
 		}
-
-	}
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

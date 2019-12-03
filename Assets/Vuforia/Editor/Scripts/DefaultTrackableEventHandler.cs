@@ -19,6 +19,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
     public GameObject target;
 
+
     public GameObject desertText;
     public GameObject drySavannaText;
     public GameObject grasslandText;
@@ -93,7 +94,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     #region PROTECTED_METHODS
 
     protected virtual void OnTrackingFound()
-    {
+    { 
         target.SetActive(false);
 
         TurnOffAllText();
@@ -140,12 +141,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         }
     }
 
-
     protected virtual void OnTrackingLost()
     {
-        target.SetActive(true);
-        TurnOffAllText();
 
+       // target.SetActive(true);
+        TurnOffAllText();
 
         if (mTrackableBehaviour)
         {

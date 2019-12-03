@@ -5,8 +5,7 @@ using Vuforia;
 
 public class ChangeToVRMode : MonoBehaviour
 {
-    private bool isInVRMode = false;
-
+    public bool isInVRMode = false;
     public GameObject target;
 
     public GameObject desertText;
@@ -18,6 +17,7 @@ public class ChangeToVRMode : MonoBehaviour
 
     public void ChangeToVR()
     {
+        Debug.Log("CHANGE TO VR");
         isInVRMode = !isInVRMode;
 
         if (!isInVRMode)
