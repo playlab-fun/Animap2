@@ -1,105 +1,258 @@
 fileFormatVersion: 2
 guid: a8ef14722984a5142bee06e6f85d4471
-timeCreated: 1473645048
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Body
-    100002: giraffe
-    100004: //RootNode
-    100006: giraffeLOD1
-    100008: giraffeLOD2
-    100010: GiraffeSkeleton
-    100012: Head
-    100014: Head_end
-    100016: LeftLeg1
-    100018: LeftLeg2
-    100020: LeftLeg2_end
-    100022: Neck
-    100024: Neck1
-    100026: Neck2
-    100028: PosteriorLeftLeg1
-    100030: PosteriorLeftLeg2
-    100032: PosteriorLeftLeg2_end
-    100034: PosteriorRight Leg2
-    100036: PosteriorRight Leg2_end
-    100038: PosteriorRightLeg1
-    100040: Right Leg1
-    100042: Right Leg2
-    100044: Right Leg2_end
-    100046: Tail1
-    100048: Tail2
-    100050: Tail2_end
-    100052: giraffe.001
-    400000: Body
-    400002: giraffe
-    400004: //RootNode
-    400006: giraffeLOD1
-    400008: giraffeLOD2
-    400010: GiraffeSkeleton
-    400012: Head
-    400014: Head_end
-    400016: LeftLeg1
-    400018: LeftLeg2
-    400020: LeftLeg2_end
-    400022: Neck
-    400024: Neck1
-    400026: Neck2
-    400028: PosteriorLeftLeg1
-    400030: PosteriorLeftLeg2
-    400032: PosteriorLeftLeg2_end
-    400034: PosteriorRight Leg2
-    400036: PosteriorRight Leg2_end
-    400038: PosteriorRightLeg1
-    400040: Right Leg1
-    400042: Right Leg2
-    400044: Right Leg2_end
-    400046: Tail1
-    400048: Tail2
-    400050: Tail2_end
-    400052: giraffe.001
-    4300000: giraffeLOD2
-    4300002: giraffeLOD1
-    4300004: giraffe
-    4300006: giraffe.001
-    7400000: idle
-    7400002: death
-    7400004: eat
-    7400006: hurt
-    7400008: run
-    7400010: walk
-    7400012: giraffeLOD1|death
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: giraffe
-    13700002: giraffeLOD1
-    13700004: giraffeLOD2
-    13700006: giraffe.001
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: giraffe
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: giraffeLOD1
+  - first:
+      1: 100008
+    second: giraffeLOD2
+  - first:
+      1: 100010
+    second: GiraffeSkeleton
+  - first:
+      1: 100012
+    second: Head
+  - first:
+      1: 100014
+    second: Head_end
+  - first:
+      1: 100016
+    second: LeftLeg1
+  - first:
+      1: 100018
+    second: LeftLeg2
+  - first:
+      1: 100020
+    second: LeftLeg2_end
+  - first:
+      1: 100022
+    second: Neck
+  - first:
+      1: 100024
+    second: Neck1
+  - first:
+      1: 100026
+    second: Neck2
+  - first:
+      1: 100028
+    second: PosteriorLeftLeg1
+  - first:
+      1: 100030
+    second: PosteriorLeftLeg2
+  - first:
+      1: 100032
+    second: PosteriorLeftLeg2_end
+  - first:
+      1: 100034
+    second: PosteriorRight Leg2
+  - first:
+      1: 100036
+    second: PosteriorRight Leg2_end
+  - first:
+      1: 100038
+    second: PosteriorRightLeg1
+  - first:
+      1: 100040
+    second: Right Leg1
+  - first:
+      1: 100042
+    second: Right Leg2
+  - first:
+      1: 100044
+    second: Right Leg2_end
+  - first:
+      1: 100046
+    second: Tail1
+  - first:
+      1: 100048
+    second: Tail2
+  - first:
+      1: 100050
+    second: Tail2_end
+  - first:
+      1: 100052
+    second: giraffe.001
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: giraffe
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: giraffeLOD1
+  - first:
+      4: 400008
+    second: giraffeLOD2
+  - first:
+      4: 400010
+    second: GiraffeSkeleton
+  - first:
+      4: 400012
+    second: Head
+  - first:
+      4: 400014
+    second: Head_end
+  - first:
+      4: 400016
+    second: LeftLeg1
+  - first:
+      4: 400018
+    second: LeftLeg2
+  - first:
+      4: 400020
+    second: LeftLeg2_end
+  - first:
+      4: 400022
+    second: Neck
+  - first:
+      4: 400024
+    second: Neck1
+  - first:
+      4: 400026
+    second: Neck2
+  - first:
+      4: 400028
+    second: PosteriorLeftLeg1
+  - first:
+      4: 400030
+    second: PosteriorLeftLeg2
+  - first:
+      4: 400032
+    second: PosteriorLeftLeg2_end
+  - first:
+      4: 400034
+    second: PosteriorRight Leg2
+  - first:
+      4: 400036
+    second: PosteriorRight Leg2_end
+  - first:
+      4: 400038
+    second: PosteriorRightLeg1
+  - first:
+      4: 400040
+    second: Right Leg1
+  - first:
+      4: 400042
+    second: Right Leg2
+  - first:
+      4: 400044
+    second: Right Leg2_end
+  - first:
+      4: 400046
+    second: Tail1
+  - first:
+      4: 400048
+    second: Tail2
+  - first:
+      4: 400050
+    second: Tail2_end
+  - first:
+      4: 400052
+    second: giraffe.001
+  - first:
+      43: 4300000
+    second: giraffeLOD2
+  - first:
+      43: 4300002
+    second: giraffeLOD1
+  - first:
+      43: 4300004
+    second: giraffe
+  - first:
+      43: 4300006
+    second: giraffe.001
+  - first:
+      74: 7400000
+    second: idle
+  - first:
+      74: 7400002
+    second: death
+  - first:
+      74: 7400004
+    second: eat
+  - first:
+      74: 7400006
+    second: hurt
+  - first:
+      74: 7400008
+    second: run
+  - first:
+      74: 7400010
+    second: walk
+  - first:
+      74: 7400012
+    second: giraffeLOD1|death
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: giraffe
+  - first:
+      137: 13700002
+    second: giraffeLOD1
+  - first:
+      137: 13700004
+    second: giraffeLOD2
+  - first:
+      137: 13700006
+    second: giraffe.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GiraffeMaterial
+    second: {fileID: 2100000, guid: 5ecb0c992a4bbd747b18f660e6a7738a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: idle
       takeName: idle
+      internalID: 7400000
       firstFrame: 0
       lastFrame: 173
       wrapMode: 2
@@ -181,6 +334,7 @@ ModelImporter:
     - serializedVersion: 16
       name: death
       takeName: death
+      internalID: 7400002
       firstFrame: 0
       lastFrame: 46
       wrapMode: 8
@@ -262,6 +416,7 @@ ModelImporter:
     - serializedVersion: 16
       name: eat
       takeName: eat
+      internalID: 7400004
       firstFrame: 0
       lastFrame: 151
       wrapMode: 2
@@ -343,6 +498,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hurt
       takeName: hurt
+      internalID: 7400006
       firstFrame: 0
       lastFrame: 14
       wrapMode: 0
@@ -424,6 +580,7 @@ ModelImporter:
     - serializedVersion: 16
       name: run
       takeName: run
+      internalID: 7400008
       firstFrame: 0
       lastFrame: 15
       wrapMode: 2
@@ -505,6 +662,7 @@ ModelImporter:
     - serializedVersion: 16
       name: walk
       takeName: walk
+      internalID: 7400010
       firstFrame: 0
       lastFrame: 39
       wrapMode: 2
@@ -589,13 +747,22 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -605,9 +772,15 @@ ModelImporter:
     normalSmoothAngle: 180
     normalImportMode: 1
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -617,10 +790,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    globalScale: 1
+    rootMotionBoneName: giraffe
     hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
