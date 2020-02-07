@@ -6,7 +6,6 @@ using Vuforia;
 public class ChangeToVRMode : MonoBehaviour
 {
     public bool isInVRMode = false;
-    public GameObject target;
 
     public GameObject desertText;
     public GameObject drySavannaText;
@@ -23,11 +22,9 @@ public class ChangeToVRMode : MonoBehaviour
         if (!isInVRMode)
         {
             MixedRealityController.Instance.SetMode(MixedRealityController.Mode.HANDHELD_AR);
-            target.SetActive(true); 
         } else
         {
             MixedRealityController.Instance.SetMode(MixedRealityController.Mode.VIEWER_VR);
-            target.SetActive(false);
             TurnOffAllText();
             Debug.Log("Turning off text");
         }

@@ -17,7 +17,6 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-    public GameObject target;
 
 
     public GameObject desertText;
@@ -95,7 +94,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingFound()
     { 
-        target.SetActive(false);
 
         TurnOffAllText();
 
@@ -143,8 +141,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingLost()
     {
+      
 
-       // target.SetActive(true);
         TurnOffAllText();
 
         if (mTrackableBehaviour)
